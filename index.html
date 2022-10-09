@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>图片库😇😻😻😻💖💟💛</title>
+  <link rel="icon" href="http://haiyong.site/wp-content/uploads/2021/07/cropped-59255587-1-192x192.jpg" sizes="192x192" />
+  <style media="screen">
+ body {
+   background: #444;
+ }
+#gallery{
+  column-count:6;
+  column-gap:20px;
+}
+    
+#gallery img {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+    
+@media (max-width:1200px){
+  #gallery{
+  column-count:4;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+
+  column-count:3;
+
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+
+  column-count:2;
+}
+}
+#menu {
+			  position: absolute;
+			  width: 100%;
+			  top: 60%;
+			  margin: auto;
+			  margin-top: 120px;
+			  font-family: "Open Sans", sans-serif;
+			  color: #fdde8c;
+			  font-size: 0.8em;
+			  text-transform: uppercase;
+			  text-align: center;
+			  line-height: 1.5;
+			  user-select: none;
+			}
+			a{
+			   color: #00f3ff;
+			}
+			p{
+				color: #fffc9d;
+			}
+</style>
+</head>
+<body>
+	<div id="gallery" class="container-fluid">
+		<img src="img/1.jpg" class="img-responsive">
+		<img src="img/2.jpg" class="img-responsive">	
+		<img src="img/3.jpg" class="img-responsive">	
+		<img src="img/4.jpg" class="img-responsive">
+		<img src="img/5.jpg" class="img-responsive">
+		<img src="img/6.jpg" class="img-responsive">		
+	</div>
+</body>
+</html>
